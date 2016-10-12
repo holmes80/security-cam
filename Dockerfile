@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
 	apache2 \
 	iptables \
 	nodejs \
+	nmap \
 	python-imaging \
 	&& apt-get clean \
 	&& rm -rf /var/lib/apt/lists/*
